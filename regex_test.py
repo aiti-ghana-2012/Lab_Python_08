@@ -77,7 +77,7 @@ def loop():
 				print blue("\tGroups:")
 				index = 1
 				for val in match.groups():
-					print "\t\t%s:\t'%s'" % (header(str(index)),repr(val))
+					print "\t\t%s:\t'%s'" % (header(str(index)),val)
 					index += 1
 			if match.groupdict():
 				print blue("\tNamed Groups:")
